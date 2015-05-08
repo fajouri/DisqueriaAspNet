@@ -22,10 +22,10 @@
                 </h1>
 
                 <ul id="navlist">
-                    <li class="first"><a href="../Views/Default.aspx" id="current">Home</a></li>
-                    <li><a href="../Store/">Store    </a></li>
+                   <li class="first"><a href="../Views/Home.aspx" id="current">Home</a></li>
+                     <li><a href="../Views/Genre.aspx">Store    </a></li>
                     <li>
-                       <%-- <% Html.RenderAction("CartSummary", "ShoppingCart"); %>--%>
+                        <a  id="cartStatus" runat="server" href="Views/Cart.aspx" clientidmode="Static">Cart()</a>
                     </li>
                     <li><a href="../Account/LogOn.aspx">Admin</a></li>
                 </ul>

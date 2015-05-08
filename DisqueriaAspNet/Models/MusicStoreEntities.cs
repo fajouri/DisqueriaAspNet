@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DisqueriaAspNet.Mappings;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -21,5 +22,13 @@ namespace DisqueriaAspNet.Models
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new CartMapping());
+
+            base.OnModelCreating(modelBuilder);
+
+        }
     }
 }

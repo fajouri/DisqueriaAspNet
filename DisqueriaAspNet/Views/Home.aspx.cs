@@ -49,18 +49,6 @@
                 albumList.Controls.Add(li);
             }
 
-            //            <ul id="albumList">
-            //    @foreach (var album in Model)
-            //    {
-            //        <li><a href="@Url.Action("Details", "Store",
-            //                new { id = album.AlbumId })">
-
-            //            <img alt="@album.Title" src="@album.AlbumArtUrl" />
-            //            <span>@album.Title</span> </a>
-            //        </li>
-            //    }
-            //</ul>
-
         }
 
         private List<Album> GetTopSellingAlbums(int count)
