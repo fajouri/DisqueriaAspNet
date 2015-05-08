@@ -70,3 +70,4 @@ c:\users\yfajouri\documents\visual studio 2013\Projects\DisqueriaAspNet\Disqueri
 c:\users\yfajouri\documents\visual studio 2013\Projects\DisqueriaAspNet\DisqueriaAspNet\bin\EntityFramework.SqlServerCompact.dll
 c:\users\yfajouri\documents\visual studio 2013\Projects\DisqueriaAspNet\DisqueriaAspNet\bin\System.Data.SqlServerCe.dll
 c:\users\yfajouri\documents\visual studio 2013\Projects\DisqueriaAspNet\DisqueriaAspNet\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\yfajouri\Documents\Visual Studio 2013\Projects\DisqueriaAspNet\DisqueriaAspNet\obj\Debug\DisqueriaAspNet.csprojResolveAssemblyReference.cache

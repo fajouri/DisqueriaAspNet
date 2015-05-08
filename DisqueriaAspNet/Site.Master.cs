@@ -29,8 +29,6 @@ namespace DisqueriaAspNet
 
         private void MostrarGeneros()
         {
-           // var service = AlbumService.GetObject();
-            //var listaGeneros = service.GetGeneros();
 
             var listaGeneros = db.Genres.Select(x=>x).ToList();
 
@@ -38,7 +36,7 @@ namespace DisqueriaAspNet
             {
                 var li = new HtmlGenericControl("li");
                 var elementoGenero = new HtmlGenericControl("a");
-                elementoGenero.Attributes.Add("href", "page.htm");
+                elementoGenero.Attributes.Add("href", "../Views/Genre.aspx?genre="+genero.Name);
                 elementoGenero.InnerText = genero.Name;
                 li.Controls.Add(elementoGenero);
 
