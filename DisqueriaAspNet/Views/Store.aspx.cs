@@ -36,7 +36,7 @@ namespace DisqueriaAspNet.Views
             pGenre.InnerText= album.Genre.Name;
             pArtist.InnerText= album.Artist.Name;
             pPrice.InnerText= String.Format("{0:F}", album.Price);
-            btnAddToCart.HRef = "Cart.aspx?id="+id.ToString();
+            btnAddToCart.HRef = "Cart.aspx?id="+id.ToString()+"&action=add";
     //       <p>
     //    <em>Genre:</em>
     //    @Model.Genre.Name

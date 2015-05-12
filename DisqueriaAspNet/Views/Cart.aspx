@@ -22,7 +22,7 @@
                         }
 
                         $('#cart-total').text(data.CartTotal);
-                        $('#update-message').text(data.Message);
+                        $('#updateMessage').text(data.Message);
                         $('#cart-status').text('Cart (' + data.CartCount + ')');
                     });
             }
@@ -44,7 +44,7 @@
         }
 
         $('#cart-total').text(data.CartTotal);
-        $('#update-message').text(data.Message);
+        $('#updateMessage').text(data.Message);
         $('#cart-status').text('Cart (' + data.CartCount + ')');
     }
 </script>--%>
@@ -53,9 +53,10 @@
 </h3>
     <button></button>
 <p><a id="btnCheckout" class="button" runat="server">Checkout >></a></p>
-<div id="update-message">
+<div id="updateMessage" runat="server" clientidmode="Static">
 </div>
 <div>
+    <%--<label id="lblMessage" runat="server" class="updateMessage"></label>--%>
     <table id="tableCart" runat="server">
         <tr>
             <th>Album Name

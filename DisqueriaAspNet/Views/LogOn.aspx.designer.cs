@@ -10,33 +10,42 @@
 namespace DisqueriaAspNet.Views {
     
     
-    public partial class Cart {
+    public partial class LogOn {
         
         /// <summary>
-        /// btnCheckout control.
+        /// Registerform control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor btnCheckout;
+        protected global::System.Web.UI.HtmlControls.HtmlForm Registerform;
         
         /// <summary>
-        /// updateMessage control.
+        /// txtUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl updateMessage;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtUserName;
         
         /// <summary>
-        /// tableCart control.
+        /// txtPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTable tableCart;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtPassword;
+        
+        /// <summary>
+        /// chkRememberme control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chkRememberme;
     }
 }

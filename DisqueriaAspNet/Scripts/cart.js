@@ -18,7 +18,7 @@
 //                    }
 
 //                    $('#cart-total').text(data.CartTotal);
-//                    $('#update-message').text(data.Message);
+//                    $('#updateMessage').text(data.Message);
 //                    $('#cart-status').text('Cart (' + data.CartCount + ')');
 //                });
 //        }
@@ -40,6 +40,6 @@
 //    }
 
 //    $('#cart-total').text(data.CartTotal);
-//    $('#update-message').text(data.Message);
+//    $('#updateMessage').text(data.Message);
 //    $('#cart-status').text('Cart (' + data.CartCount + ')');
 //}

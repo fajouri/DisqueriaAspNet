@@ -269,6 +269,7 @@
     <Content Include="Views\Cart.aspx" />
     <Content Include="Views\Genre.aspx" />
     <Content Include="Views\Home.aspx" />
+    <Content Include="Views\LogOn.aspx" />
     <Content Include="Views\Store.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -472,6 +473,13 @@
     </Compile>
     <Compile Include="Views\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LogOn.aspx.cs">
+      <DependentUpon>LogOn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\LogOn.aspx.designer.cs">
+      <DependentUpon>LogOn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Store.aspx.cs">
       <DependentUpon>Store.aspx</DependentUpon>
